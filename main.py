@@ -168,7 +168,7 @@ while run:
     pygame.draw.rect(screen, RED, button_list[current_tile].rect, 2)
 
     # scroll the map
-    if scroll_left and scroll>0:
+    if scroll_left and scroll > 0:
         scroll -= 5 * scroll_speed
     if scroll_right and scroll < (MAX_COLS * TILE_SIZE - SCREEN_WIDTH):
         scroll += 5 * scroll_speed
